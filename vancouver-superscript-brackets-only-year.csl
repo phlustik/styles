@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="minimal">
   <info>
-    <title>Vancouver (superscript, brackets, only year in date)</title>
-    <id>http://www.zotero.org/styles/vancouver-superscript-brackets-only-year</id>
-    <link href="http://www.zotero.org/styles/vancouver-superscript-brackets-only-year" rel="self"/>
+    <title>Vancouver (brackets, only year in date)</title>
+    <id>http://www.zotero.org/styles/vancouver-brackets-only-year</id>
+    <link href="http://www.zotero.org/styles/vancouver-brackets-only-year" rel="self"/>
     <link href="http://www.nlm.nih.gov/bsd/uniform_requirements.html" rel="documentation"/>
     <author>
       <name>Damodaran S E</name>
@@ -20,10 +20,14 @@
     <contributor>
       <name>Sebastian Karcher</name>
     </contributor>
+    <contributor>
+      <name>Petr Hlustik</name>
+      <email>phlustik@upol.cz</email>
+    </contributor>
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Vancouver style as outlined by International Committee of Medical Journal Editors Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Sample References</summary>
-    <updated>2012-09-27T22:06:38+00:00</updated>
+    <updated>2013-07-23T09:06:38+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -119,7 +123,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter="," prefix="[" suffix="]" vertical-align="sup">
+    <layout delimiter="," prefix="[" suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
